@@ -106,3 +106,6 @@ This scenario shows how a user can filter documents by owner name to locate all 
 
 ## 🙋‍♀️ About Me
 I’m a Computer Science graduate who enjoys solving problems through **data analytics and automation**. I use tools like Power BI, SQL, and Python to turn raw data into useful solutions.
+
+[🔗 LinkedIn](https://www.linkedin.com/in/ainamardhiah2107/) 
+
