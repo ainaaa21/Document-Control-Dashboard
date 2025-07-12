@@ -1,16 +1,16 @@
 # 📋 Document Control System (DCS) Dashboard
 
 ## 📌 Overview
-During my internship, I created this dashboard to improve the **Document Control System (DCS)** — a platform that stores important documents like SOPs, control plans, and work guidelines used by different departments.
+This dashboard was built to improve the **Document Control System (DCS)** — a platform that stores important documents like SOPs, control plans, and work guidelines used by different departments.
 
-Before this, users had to download Excel files or go through many pages just to find a document. This project aimed to make that process faster and easier using **Power BI**.
+Previously, users had to download Excel files or go through multiple pages just to find a document. This project aimed to make that process faster and easier using **Power BI**.
 
-Using **Power BI**, I imported document data like Document ID, Title, Type, Function, Owner, Work Area, and Status **directly from the Oracle database**. The result was an **interactive dashboard** that let users filter, search, and download documents easily from one place.
+Using **Power BI**, I imported document data such as Document ID, Title, Type, Function, Owner, Work Area, and Status **directly from the Oracle database**. The result was an **interactive dashboard** that lets users filter, search, and download documents easily from one place.
 
 ---
 
 ## 🔐 Confidentiality Note
-*This project was completed during my internship. All data shown has been recreated or anonymized to protect confidentiality. Visuals are only for demonstrating structure and logic.*
+*All data shown has been recreated or anonymized to protect confidentiality. Visuals are used solely to demonstrate the solution's structure and logic.*
 
 ---
 
@@ -23,9 +23,9 @@ The goal of this project was to improve the DCS by creating a **single-page Powe
 
 ## ✅ Solution
 The **DCS Dashboard** helped solve these problems by:
-- 🔗 **Connecting directly** to the Oracle database for the latest data
-- 📑 Allowing users to **filter and search** documents in real-time
-- 📥 Adding **download links** for easy file access
+- 🔗 **Connecting directly** to the Oracle database for the latest data  
+- 📑 Allowing users to **filter and search** documents in real-time  
+- 📥 Adding **download links** for easy file access  
 - 📊 Showing document stats (e.g., published vs expired)
 
 ---
@@ -43,64 +43,63 @@ The **DCS Dashboard** helped solve these problems by:
 
 ## 🧭 Project Walkthrough
 
-### 🔍 Step 1: Dashboard Preview
-Users can view and filter all documents by key details. The dashboard also shows totals for published and expired documents.
+### 🔍 Step 1: Dashboard Preview  
+This is the main interface that allows users to view, filter, and search documents. Summary tiles show the number of published and expired documents.
 
 <p align="center">
-  <img src="sample-screenshots/dcs-overview.png" alt="DCS Dashboard Preview" width="700"/>
+  <img src="sample-screenshots/dashboard-preview.png" alt="Dashboard Preview" width="700"/>
 </p>
 
-*Dashboard showing filters and document stats.*
+*Main Power BI dashboard with filters and document status metrics.*
 
 ---
 
-### 🗄️ Step 2: Data Extraction Using SQL
-Document details were pulled directly from **Oracle database** tables. Only needed fields were imported to keep things efficient.
+### 🧠 Step 2: Table Relationships  
+Relationships between tables were created in Power BI to ensure correct filtering and interaction across all document fields like type, department, and expiry status.
 
 <p align="center">
-  <img src="sample-screenshots/dcs-sql.png" alt="SQL Snippet" width="700"/>
+  <img src="sample-screenshots/table-relationship.png" alt="Table Relationship" width="700"/>
 </p>
 
-*SQL used to get document info from the database.*  
-🔗 [View full SQL logic](dcs-query.sql)
+*Data model structure (image recreated and intentionally blurred to protect internal table schema).*
 
 ---
 
-### 🧠 Step 3: Search & Hyperlink Logic
-Once the data was loaded, filters and simple DAX measures were used to count documents. Each row had a link to let users open or download the document.
+### ✅ Step 3: Scenario – Document Search  
+This example shows how a user can filter and search documents by fields such as **document type** and **function/department** to quickly find the needed files.
 
 <p align="center">
-  <img src="sample-screenshots/dcs-hyperlink.png" alt="Hyperlink Logic" width="700"/>
+  <img src="sample-screenshots/dashboard-scenario1.png" alt="Document Search Scenario" width="700"/>
 </p>
 
-*Power BI table showing document names and clickable links.*
+*Real-time search scenario using filters to narrow down document results.*
 
 ---
 
-### ✅ Step 4: User Experience Scenario
-Now, users can just type part of a document title or select a department to quickly find and open the file they need.
+### 🧾 Step 4: Scenario – Search by Owner Name  
+This scenario demonstrates how a user can locate documents by entering part of the **Owner Name**, such as the responsible person or document creator.
 
 <p align="center">
-  <img src="sample-screenshots/dcs-filter-demo.png" alt="Filter Scenario" width="700"/>
+  <img src="sample-screenshots/dashboard-scenario2.png" alt="Document Download Scenario" width="700"/>
 </p>
 
-*Example showing how easy it is to filter and download documents.*
+*Example showing how to filter documents by document owner.*
 
 ---
 
 ## 🔍 Key Features
-- 🔎 Filter documents by department, work area, or ID
-- 📥 Click to download any document instantly
-- 📊 Track published vs expired files at a glance
-- 🔄 Data is kept up to date from the Oracle system
+- 🔎 Filter documents by department, work area, document ID, or owner
+- 📥 Clickable hyperlinks for direct file downloads
+- 📊 Summary cards for published vs expired documents
+- 🔄 Live data refresh via Oracle database connection
 
 ---
 
 ## 📈 Impact
-- Cut down search time from minutes to seconds
-- No need to export or manually filter Excel files
-- Easier document access across teams
-- Positive user feedback for speed and convenience
+- ⏱️ Cut search time from minutes to seconds  
+- 📉 Removed the need for manual Excel filtering  
+- 💡 Improved document access for multiple teams  
+- ✅ Positive feedback for ease of use and visual clarity
 
 ---
 
