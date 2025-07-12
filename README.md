@@ -14,13 +14,10 @@ Using **Power BI**, I imported document data like Document ID, Title, Type, Func
 
 ---
 
-## 🎯 Problem Statement
-Before the dashboard:
-- Users had to download spreadsheets or click through several pages
-- Filtering had to be done manually
-- The system was slow and not user-friendly
+## 🎯 Problem Statement  
+Previously, users had to navigate through multiple pages or download Excel files to search and filter documents in the Document Control System (DCS). This process was time-consuming, inconvenient, and not user-friendly.
 
-This made it hard to find the right document quickly and increased the chances of mistakes.
+The goal of this project was to improve the DCS by creating a **single-page Power BI dashboard** where users could easily **search and filter documents** in real-time. This enhancement simplified document access, reduced manual effort, and made the system more efficient and accessible.
 
 ---
 
