@@ -99,9 +99,8 @@ This scenario shows how a user can filter documents by owner name to locate all 
 - Cut down search time from minutes to seconds
 - No need to export or manually filter Excel files
 - Easier document access across teams
-- 🗓️ Enabled quick identification of expired documents, so teams know which files need to be reviewed or updated
-- Positive user feedback for speed and convenience
-
+- Enabled quick identification of expired documents, so teams know which files need to be reviewed or updated
+  
 ---
 
 ## 🙋‍♀️ About Me
