@@ -10,7 +10,7 @@ Using **Power BI**, I imported document data like Document ID, Title, Type, Func
 ---
 
 ## 🔐 Confidentiality Note
-*All data in this dashboard has been recreated or anonymized to protect company confidentiality. This sample only reflects the data logic and structure used in the actual project.*
+*All data in this dashboard has been **recreated or anonymized to protect company confidentiality.** This sample only reflects the data logic and structure used in the actual project.*
 
 ---
 
