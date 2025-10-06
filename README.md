@@ -50,7 +50,7 @@ This is the main interface that allows users to view, filter, and search documen
   <img src="sample-screenshots/dashboard-preview.png" alt="Dashboard Preview" width="700"/>
 </p>
 
-*Main Power BI dashboard with filters and stats.*
+*Main Power BI dashboard with filters and table.*
 
 ---
 
